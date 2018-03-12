@@ -17,7 +17,7 @@ import { userAgent } from "../platform";
 
 const packageInfo = require("../../package.json");
 
-const SERVICE = 'appsync';
+const SERVICE = 'execute-api';
 const USER_AGENT_HEADER = 'x-amz-user-agent';
 const USER_AGENT = `aws-amplify/${packageInfo.version}${userAgent && ' '}${userAgent}`;
 
